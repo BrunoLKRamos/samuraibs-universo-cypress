@@ -106,7 +106,7 @@ describe('cadastro', function () {
         })
 
         alertMessages.forEach((alert) => {
-            it.only('deve exibir ' + alert.toLowerCase(), () => {
+            it('deve exibir ' + alert.toLowerCase(), () => {
                 signupPage.alertHaveText(alert)
             });
         })
