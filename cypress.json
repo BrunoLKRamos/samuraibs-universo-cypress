@@ -1,5 +1,12 @@
 {
     "baseUrl": "http://localhost:3000",
     "viewportWidth": 1440,
-    "viewportHeight": 900
+    "viewportHeight": 900,
+    "dbConfig": {
+        "host": "jelani.db.elephantsql.com",
+        "user": "elppddcf",
+        "password": "AWszJ1XKIoYN4mNSG67hT3C9cijQleB7",
+        "database": "elppddcf",
+        "port": 5432 
+    }
 }
